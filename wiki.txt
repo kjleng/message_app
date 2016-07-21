@@ -1,0 +1,4 @@
+psql -h localhost -d message_app_development -U edmundleng
+
+
+bundle exec rake messages:create_messages
